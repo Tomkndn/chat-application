@@ -37,7 +37,20 @@ REACT_APP_COMETCHAT_APP_ID=your-app-id
 REACT_APP_COMETCHAT_REGION=your-app-region
 REACT_APP_COMETCHAT_AUTH_KEY=your-auth-key
 ```
-### 4. Run the application
+
+### 4. Configure CometChat Constants
+In your `src/index.tsx` (or wherever you initialize CometChat), configure the constants using React's environment variables:
+
+```tsx
+export const COMETCHAT_CONSTANTS = {
+  APP_ID: process.env.VITE_COMETCHAT_APP_ID,
+  REGION: process.env.VITE_COMETCHAT_REGION,
+  AUTH_KEY: process.env.VITE_COMETCHAT_AUTH_KEY,
+};
+```
+
+
+### 5. Run the application
 ```bash
 npm run start
 ```
