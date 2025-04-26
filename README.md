@@ -68,7 +68,7 @@ Visit [http://localhost:3000](http://localhost:3000) to see the app running.
 
 ## 📚 Useful Resources
 - [CometChat Documentation](https://www.cometchat.com/docs/)
-- [CometChat UI Kit GitHub Repository](https://github.com/cometchat-pro)
+- [CometChat UI Kit GitHub Repository](https://github.com/cometchat)
 
 ---
 
